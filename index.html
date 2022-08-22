@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <!-- <div class="first-sec">
+            <h2 class="head-text">HOME</h2>
+            <p class="score"></p>
+            <div>
+                <button class="btn">+1</button>
+                <button class="btn">+2</button>
+                <button class="btn">+3</button>
+            </div>
+        </div> -->
+        <div class="first-sec">
+            <h3 class="head-text">HOME</h3>
+            <h2 id="home-score" class="score">0</h2>
+            <div class="main-btn">
+                <button id="home-score-btn-1" class="btn" onclick="increaseHomeScoreOne()">+1</button>
+                <button  id="home-score-btn-2" onclick="increaseHomeScoreTwo()" class="btn">+2</button>
+                <button  id="home-score-btn-3" onclick="increaseHomeScoreThree()" class="btn">+3</button>
+                
+            </div>
+        </div>
+
+
+        <!-- second-sec -->
+        <div class="second-sec">
+            <h3 class="head-text">GUEST</h3>
+            <h2 id="home-score-two" class="score">0</h2>
+            <div class="main-btn">
+                <button id="home-score-btn-4" class="btn" onclick="increaseHomeScoreFour()">+1</button>
+                <button  id="home-score-btn-5" onclick="increaseHomeScoreFive()" class="btn">+2</button>
+                <button  id="home-score-btn-6" onclick="increaseHomeScoreSix()" class="btn">+3</button>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
+
+
+
+<!-- <html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <div>
+                <h3>HOME</h3>
+                <h2 id="home-score">0</h2>
+                <button id="home-score-btn-1" onclick="increaseHomeScoreOne()">+ 1</button>
+            </div>
+            <div>
+                <h3>GUEST</h3>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html> -->
